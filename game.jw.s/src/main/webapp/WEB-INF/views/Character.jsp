@@ -10,14 +10,18 @@
 <body>
 <table>
 		<tr>
-			<th>공격력</th>
-			<th>방어력</th>
-			<th>hp</th>
+			<th>idx</th>
+			<th>id</th>
+			<th>pass</th>
+			<th>name</th>
+			<th>attackPoint</th>
+			<th>guardPoint</th>
+			<th>HP</th>
 		</tr>
-		<%-- ${select_result}--%>
+		${select_result} 
 </table>
 
 <a href="/s">로그아웃</a>
-<a href="/game/battle">대전</a>
+<a href="/s/choice">대전</a>
 </body>
 </html>
